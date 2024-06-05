@@ -6,13 +6,10 @@
 </head>
 <body>
     <canvas id="jsdos" width="640" height="480"></canvas>
-    <script src="https://js-dos.com/6.22/js-dos.js"></script>
-    <script>
-        Dos(document.getElementById('jsdos')).ready(function (fs, main) {
-            fs.extract("cm9798.zip").then(function () {
-                main(["-c", "CM2E16.EXE"]);
-            });
-        });
-    </script>
+    <!-- js-dos style sheet -->
+<link rel="stylesheet" href="https://v8.js-dos.com/latest/js-dos.css">
+
+<!-- js-dos -->
+<script src="https://v8.js-dos.com/latest/js-dos.js"></script>
 </body>
 </html>
