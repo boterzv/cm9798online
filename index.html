@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Run cm9798 online</title>
+</head>
+<body>
+    <canvas id="jsdos" width="640" height="480"></canvas>
+    <script src="https://js-dos.com/6.22/js-dos.js"></script>
+    <script>
+        Dos(document.getElementById('jsdos')).ready(function (fs, main) {
+            fs.extract("cm9798.zip").then(function () {
+                main(["-c", "CM2E16.EXE"]);
+            });
+        });
+    </script>
+</body>
+</html>
