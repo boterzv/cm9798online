@@ -10,15 +10,16 @@
              padding: 0;
          }
         </style>
-        <script src="https://js-dos.com/v7/build/releases/latest/js-dos/js-dos.js"></script>
-        <link href="https://js-dos.com/v7/build/releases/latest/js-dos/js-dos.css" rel="stylesheet">
+        <script src="https://js-dos.com/v7/build/releases/latest/emulators/emulators.js"></script>
+        <script src="https://js-dos.com/v7/build/releases/latest/emulators-ui/emulators-ui.js"></script>
+        <link rel="stylesheet" href="/v7/build/releases/latest/emulators-ui/emulators-ui.css">
     </head>
     <body>
         <div id="jsdos" />
         <script>
          emulators.pathPrefix = "https://js-dos.com/v7/build/releases/latest/js-dos/";
          Dos(document.getElementById("jsdos"))
-             .run("https://cdn.dos.zone/original/2X/2/24b00b14f118580763440ecaddcc948f8cb94f14.jsdos");
+             .run("https://cdn.dos.zone/original/2X/2/24b00b14f118580763440ecaddcc948f8cb94f14.jsdos")
         </script>
     </body>
 </html>
